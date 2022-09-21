@@ -1,0 +1,31 @@
+export const commons = {
+  enter: `Entrar`,
+  back: `Voltar`,
+  save: `Salvar`,
+  cancel: `Cancelar`,
+  delete: `Excluir`,
+  update: `Atualizar`,
+  initialDate: `Data início`,
+  finalDate: `Data fim`,
+  register: `Cadastrar`,
+  search: `Pesquisar`,
+  add: `Adicionar`,
+  close: `Fechar`,
+  create: `Criar`,
+  edit: `Editar`,
+  yes: `Sim`,
+  no: `Não`,
+  ok: `OK`,
+  download: `Download`,
+  table: {
+    results: `{{total}} resultados`,
+    dataNotFound: `Nenhum dado encontrado`
+  },
+  all: `Todas`,
+  copy: `Copiar`,
+  next: `Próximo`,
+  publish: `Publicar`,
+  finish: `Finalizar`,
+  default: `Padrão`,
+  invalidDate: `Data Inválida`
+}
