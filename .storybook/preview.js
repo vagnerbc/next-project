@@ -2,7 +2,7 @@ import React from 'react'
 import theme from '../src/theme'
 
 import { addDecorator } from '@storybook/react'
-import { ThemeProvider } from '../src/providers/ThemeProvider'
+import { ThemeProvider } from '../src/theme/providers/ThemeProvider'
 
 import './index.css'
 

@@ -12,7 +12,7 @@ import {
   FieldValues,
   UseFormStateReturn
 } from 'react-hook-form'
-import { ThemeProvider } from 'providers/ThemeProvider'
+import { ThemeProvider } from 'theme/providers/ThemeProvider'
 
 const queryClient = new QueryClient()
 

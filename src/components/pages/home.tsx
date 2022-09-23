@@ -5,6 +5,7 @@ import { FormControl, FormErrorMessage } from 'components/atoms/Form'
 import { Input } from 'components/atoms/Input'
 import { VStack } from 'components/atoms/Stack'
 import { Text } from 'components/atoms/Text'
+import { useAuth } from 'contexts/auth'
 import { translate } from 'internationalization'
 import { Controller, SubmitHandler, useForm } from 'react-hook-form'
 
@@ -14,6 +15,8 @@ type Inputs = {
 }
 
 export const HomePage = () => {
+  const { login } = useAuth()
+
   const {
     register,
     control,
@@ -22,7 +25,7 @@ export const HomePage = () => {
   } = useForm<Inputs>()
 
   const onSubmit: SubmitHandler<Inputs> = data => {
-    console.log(data)
+    login(data)
   }
 
   return (

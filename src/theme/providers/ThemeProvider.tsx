@@ -1,7 +1,7 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import React from 'react'
 
-import theme from '../theme'
+import theme from '..'
 
 type ThemeProviderProps = React.FC<{ children?: React.ReactNode }>
 
